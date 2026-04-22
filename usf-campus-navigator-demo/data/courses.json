@@ -1,0 +1,1024 @@
+[
+  {
+    "course_code": "ACG2021",
+    "course_name": "Introduction to Financial Accounting",
+    "focus": "financial statements, assets, liabilities, and equity",
+    "student_friendly_summary": "learning how businesses record transactions and build financial statements like the balance sheet and income statement",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG2071",
+    "course_name": "Introduction to Managerial Accounting",
+    "focus": "cost analysis, budgeting, and internal business decisions",
+    "student_friendly_summary": "using accounting information to help businesses plan, control costs, and make smarter internal decisions",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG3131",
+    "course_name": "Intermediate Financial Accounting I",
+    "focus": "in-depth GAAP, revenue recognition, and current assets",
+    "student_friendly_summary": "diving deeper into accounting standards and how companies report their assets and revenue under official rules",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG3141",
+    "course_name": "Intermediate Financial Accounting II",
+    "focus": "long-term assets, liabilities, equity, and pensions",
+    "student_friendly_summary": "continuing intermediate accounting with more complex topics like bonds, leases, and stockholder equity",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG3401",
+    "course_name": "Accounting Information Systems",
+    "focus": "data flows, internal controls, and accounting software",
+    "student_friendly_summary": "learning how accounting data is captured, processed, and protected through modern information systems",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG4011",
+    "course_name": "Advanced Financial Accounting",
+    "focus": "consolidations, partnerships, and governmental accounting",
+    "student_friendly_summary": "tackling complex accounting scenarios like mergers, joint ventures, and government fund accounting",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG4201",
+    "course_name": "Advanced Managerial Accounting",
+    "focus": "strategic cost management and performance measurement",
+    "student_friendly_summary": "applying advanced costing methods and balanced scorecards to help organizations measure and improve performance",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG4651",
+    "course_name": "Auditing",
+    "focus": "audit standards, risk assessment, and internal controls",
+    "student_friendly_summary": "learning how auditors examine financial records, assess risk, and verify that companies follow accounting rules",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ACG4731",
+    "course_name": "Tax Concepts and Regulations",
+    "focus": "federal income tax, deductions, and filing requirements",
+    "student_friendly_summary": "understanding how individuals and businesses calculate taxable income and comply with federal tax law",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "AMH2010",
+    "course_name": "American History I",
+    "focus": "U.S. history from colonial era through Reconstruction",
+    "student_friendly_summary": "exploring American history from European colonization through the Civil War and early efforts at rebuilding the nation",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "AMH2020",
+    "course_name": "American History II",
+    "focus": "U.S. history from Reconstruction to the present",
+    "student_friendly_summary": "tracing American development from the Gilded Age through the 20th century to contemporary issues",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "ANT2000",
+    "course_name": "Introduction to Anthropology",
+    "focus": "culture, evolution, language, and archaeology",
+    "student_friendly_summary": "a survey of human diversity across cultures, time, and biology through the four fields of anthropology",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "ANT3145",
+    "course_name": "Cultural Anthropology",
+    "focus": "ethnography, fieldwork, and cross-cultural comparison",
+    "student_friendly_summary": "examining how different societies organize family, religion, economy, and identity through cultural lenses",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "ANT3514",
+    "course_name": "Biological Anthropology",
+    "focus": "human evolution, genetics, and primate behavior",
+    "student_friendly_summary": "studying the biological roots of humanity including evolution, fossils, and our genetic relationship with primates",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "ARH2000",
+    "course_name": "Art Appreciation",
+    "focus": "visual elements, art history, and critical analysis",
+    "student_friendly_summary": "developing an eye for art by learning how to look at, analyze, and appreciate artworks across history and cultures",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "ARH2050",
+    "course_name": "Survey of Western Art I",
+    "focus": "art from prehistoric through medieval periods",
+    "student_friendly_summary": "exploring painting, sculpture, and architecture from ancient caves through Gothic cathedrals",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "ARH2051",
+    "course_name": "Survey of Western Art II",
+    "focus": "Renaissance through contemporary art movements",
+    "student_friendly_summary": "tracing Western art from the Italian Renaissance through Impressionism, Modernism, and beyond",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "AST1002",
+    "course_name": "Astronomy",
+    "focus": "planets, stars, galaxies, and the universe",
+    "student_friendly_summary": "a general tour of the cosmos covering the solar system, stellar life cycles, and the big bang",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "AST2002",
+    "course_name": "Planets and the Solar System",
+    "focus": "solar system formation, planetary science, and space exploration",
+    "student_friendly_summary": "studying the origin, structure, and features of our solar system including planets, moons, and recent space missions",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "BCH4053",
+    "course_name": "Biochemistry I",
+    "focus": "proteins, enzymes, lipids, and metabolic pathways",
+    "student_friendly_summary": "understanding the chemistry of life by studying how proteins are built and how cells use energy",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BCH4054",
+    "course_name": "Biochemistry II",
+    "focus": "nucleic acids, gene expression, and molecular signaling",
+    "student_friendly_summary": "continuing biochemistry with DNA replication, transcription, translation, and cell communication",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BME3403",
+    "course_name": "Biomedical Instrumentation",
+    "focus": "sensors, signals, and medical device design",
+    "student_friendly_summary": "learning how biomedical devices measure physiological signals and how to design and analyze medical instruments",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "BSC1005",
+    "course_name": "Biological Sciences",
+    "focus": "life processes, cells, genetics, and ecology",
+    "student_friendly_summary": "a non-majors biology survey covering the basics of life from cells and DNA to ecosystems",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BSC2010",
+    "course_name": "Integrated Principles of Biology I",
+    "focus": "cell biology, genetics, and evolution",
+    "student_friendly_summary": "the first semester of biology for majors covering cells, DNA, inheritance, and how life evolves",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BSC2011",
+    "course_name": "Integrated Principles of Biology II",
+    "focus": "organismal diversity, ecology, and physiology",
+    "student_friendly_summary": "exploring the diversity of life from plants and fungi to animals, and how organisms interact with their environments",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BSC3403",
+    "course_name": "Cell Biology",
+    "focus": "cell structure, function, and molecular processes",
+    "student_friendly_summary": "a deep dive into how cells work at the molecular level including signaling, the cytoskeleton, and organelle function",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "BSC4933",
+    "course_name": "Senior Seminar in Biology",
+    "focus": "scientific literature, research synthesis, and presentation",
+    "student_friendly_summary": "reading and discussing primary research papers and presenting scientific findings in a capstone seminar format",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "CCJ3024",
+    "course_name": "Criminology",
+    "focus": "theories of crime, deviance, and criminal behavior",
+    "student_friendly_summary": "examining why crime occurs through biological, psychological, and sociological theories of deviance",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "CCJ4014",
+    "course_name": "Criminal Justice Policy",
+    "focus": "policy formation, evaluation, and reform in criminal justice",
+    "student_friendly_summary": "analyzing how criminal justice policies are created, their effects on communities, and how reforms are proposed",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "CHM2045",
+    "course_name": "General Chemistry I",
+    "focus": "atomic structure, bonding, stoichiometry, and reactions",
+    "student_friendly_summary": "building a foundation in chemistry through atomic theory, chemical formulas, and basic reaction math",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CHM2046",
+    "course_name": "General Chemistry II",
+    "focus": "equilibrium, thermodynamics, kinetics, and electrochemistry",
+    "student_friendly_summary": "continuing general chemistry with reaction rates, energy changes, acids and bases, and electrochemical cells",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CHM2210",
+    "course_name": "Organic Chemistry I",
+    "focus": "carbon compounds, bonding, stereochemistry, and substitution reactions",
+    "student_friendly_summary": "learning the structure and reactivity of organic molecules including alkanes, alkenes, and halides",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CHM2211",
+    "course_name": "Organic Chemistry II",
+    "focus": "aromatic compounds, carbonyl chemistry, and biosynthesis",
+    "student_friendly_summary": "extending organic chemistry to benzene rings, aldehydes, ketones, and biologically relevant molecules",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CHM3120",
+    "course_name": "Analytical Chemistry",
+    "focus": "quantitative analysis, spectroscopy, and lab techniques",
+    "student_friendly_summary": "measuring and analyzing chemical samples using titrations, spectroscopy, and statistical data interpretation",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CHM3400",
+    "course_name": "Physical Chemistry I",
+    "focus": "thermodynamics, quantum mechanics, and molecular properties",
+    "student_friendly_summary": "using math and physics to understand why chemical reactions happen and how energy is involved",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "CIS4360",
+    "course_name": "Introduction to Information Security",
+    "focus": "security principles, threats, cryptography, and risk management",
+    "student_friendly_summary": "understanding how to protect computer systems through encryption, access control, and security best practices",
+    "default_building": "ENB"
+  },
+  {
+    "course_code": "CJE4145",
+    "course_name": "Police and Society",
+    "focus": "police history, reform, and community relations",
+    "student_friendly_summary": "analyzing the role of police in society including use of force, community policing, and calls for reform",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "CLP3006",
+    "course_name": "Abnormal Psychology",
+    "focus": "psychological disorders, diagnosis, and treatment",
+    "student_friendly_summary": "surveying mental health disorders from anxiety and depression to schizophrenia, including how they are diagnosed and treated",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "COM2000",
+    "course_name": "Introduction to Communication",
+    "focus": "communication theories, models, and contexts",
+    "student_friendly_summary": "exploring how communication works in interpersonal, group, organizational, and mass media contexts",
+    "default_building": "CIS"
+  },
+  {
+    "course_code": "COP2510",
+    "course_name": "Programming Concepts",
+    "focus": "Python fundamentals, logic, and problem solving",
+    "student_friendly_summary": "an intro to programming using Python with variables, loops, functions, and basic data structures",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "COP3514",
+    "course_name": "Program Design",
+    "focus": "C programming and problem solving",
+    "student_friendly_summary": "learning how to solve problems in C with variables, functions, loops, arrays, and debugging",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "COP3530",
+    "course_name": "Data Structures",
+    "focus": "arrays, linked lists, trees, graphs, and algorithm analysis",
+    "student_friendly_summary": "mastering the fundamental data structures used in software development and learning how to analyze their efficiency",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "COP4020",
+    "course_name": "Programming Languages",
+    "focus": "language paradigms, syntax, semantics, and type systems",
+    "student_friendly_summary": "comparing how different programming languages are designed and how they handle types, scope, and control flow",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "COP4338",
+    "course_name": "Systems Programming",
+    "focus": "OS interfaces, processes, memory management, and C/C++",
+    "student_friendly_summary": "programming close to the hardware using C and Linux system calls to manage processes, files, and memory",
+    "default_building": "ENC"
+  },
+  {
+    "course_code": "COP4710",
+    "course_name": "Database Systems",
+    "focus": "relational databases, SQL, and query optimization",
+    "student_friendly_summary": "designing databases, writing SQL queries, and understanding how database systems store and retrieve data efficiently",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "COT4400",
+    "course_name": "Analysis of Algorithms",
+    "focus": "sorting, searching, graph algorithms, and complexity",
+    "student_friendly_summary": "analyzing the efficiency of classic algorithms and learning how to prove correctness and measure runtime",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "CPO2002",
+    "course_name": "Introduction to Comparative Politics",
+    "focus": "political systems, governments, and democratic theory",
+    "student_friendly_summary": "comparing how different countries govern themselves and why some political systems succeed while others fail",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "CRW3120",
+    "course_name": "Introduction to Creative Writing",
+    "focus": "fiction, poetry, and narrative craft",
+    "student_friendly_summary": "experimenting with short fiction and poetry through workshop-style feedback and revision",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "DEP3053",
+    "course_name": "Developmental Psychology",
+    "focus": "human growth from infancy through adulthood",
+    "student_friendly_summary": "tracing physical, cognitive, and emotional development across the human lifespan from birth to old age",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "DSC4100",
+    "course_name": "Data Analytics",
+    "focus": "data wrangling, visualization, and statistical modeling",
+    "student_friendly_summary": "analyzing real datasets using Python and R to find patterns, build models, and communicate insights clearly",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "ECO2013",
+    "course_name": "Principles of Macroeconomics",
+    "focus": "GDP, inflation, unemployment, and monetary policy",
+    "student_friendly_summary": "understanding how national economies function through the lens of output, prices, and government policy",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ECO2023",
+    "course_name": "Principles of Microeconomics",
+    "focus": "supply and demand, market structure, and consumer behavior",
+    "student_friendly_summary": "exploring how individuals and firms make decisions and how markets determine prices and allocate resources",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ECO3101",
+    "course_name": "Intermediate Microeconomic Analysis",
+    "focus": "utility maximization, firm theory, and market failures",
+    "student_friendly_summary": "building a rigorous model of consumer and producer behavior and exploring when and why markets fail",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ECO3203",
+    "course_name": "Intermediate Macroeconomic Analysis",
+    "focus": "growth models, business cycles, and fiscal/monetary policy",
+    "student_friendly_summary": "applying macroeconomic models to explain long-run growth, recessions, and the role of government stabilization policies",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ECO4400",
+    "course_name": "Econometrics",
+    "focus": "regression analysis, hypothesis testing, and economic data",
+    "student_friendly_summary": "using statistical tools to test economic theories and estimate relationships using real-world data",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "EDA4223",
+    "course_name": "Classroom Management",
+    "focus": "behavioral strategies, routines, and learning environments",
+    "student_friendly_summary": "developing practical strategies to create organized, positive, and productive classroom environments",
+    "default_building": "EDU"
+  },
+  {
+    "course_code": "EDF1005",
+    "course_name": "Introduction to Education",
+    "focus": "teaching as a profession, school systems, and educational philosophy",
+    "student_friendly_summary": "exploring what it means to be a teacher and how schools are organized and governed in the U.S.",
+    "default_building": "EDU"
+  },
+  {
+    "course_code": "EDF3604",
+    "course_name": "Social Foundations of Education",
+    "focus": "education's role in society, culture, and equity",
+    "student_friendly_summary": "examining how society shapes education and how schools reflect and reproduce issues of race, class, and inequality",
+    "default_building": "EDU"
+  },
+  {
+    "course_code": "EEE4310",
+    "course_name": "Electric Circuits",
+    "focus": "circuit analysis, Ohm's law, Kirchhoff's laws, and AC/DC",
+    "student_friendly_summary": "analyzing electrical circuits using fundamental laws and building a foundation for electrical engineering",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EEL3552",
+    "course_name": "Signals and Systems",
+    "focus": "signal analysis, Fourier transforms, and filtering",
+    "student_friendly_summary": "learning how to represent and transform signals mathematically as a foundation for communications and control systems",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EEL4657",
+    "course_name": "Linear Control Systems",
+    "focus": "feedback, stability, root locus, and Bode plots",
+    "student_friendly_summary": "designing control systems that keep processes stable and well-behaved using classical feedback control methods",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EGN3000",
+    "course_name": "Introduction to Engineering",
+    "focus": "engineering disciplines, problem solving, and design process",
+    "student_friendly_summary": "getting introduced to different engineering fields and learning how engineers frame and solve real problems",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EGN3321",
+    "course_name": "Engineering Statics",
+    "focus": "force equilibrium, free body diagrams, and structural analysis",
+    "student_friendly_summary": "analyzing stationary structures and machines by applying Newton's laws to find unknown forces and reactions",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EGN3343",
+    "course_name": "Thermodynamics",
+    "focus": "energy, heat, work, and thermodynamic cycles",
+    "student_friendly_summary": "understanding how heat and work relate to energy systems, from car engines to refrigerators and power plants",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "EML3500",
+    "course_name": "Machine Design",
+    "focus": "stress analysis, fatigue, and mechanical component design",
+    "student_friendly_summary": "applying mechanics principles to design mechanical components like shafts, gears, and fasteners that won't fail",
+    "default_building": "ENB"
+  },
+  {
+    "course_code": "ENC1101",
+    "course_name": "Composition I",
+    "focus": "writing, analysis, and communication",
+    "student_friendly_summary": "improving college writing through drafting, revision, and rhetorical analysis",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "ENC1102",
+    "course_name": "Composition II",
+    "focus": "argumentation, research, and source integration",
+    "student_friendly_summary": "advancing academic writing skills through argument essays, research methods, and synthesizing multiple sources",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "ENC3310",
+    "course_name": "Advanced Composition",
+    "focus": "writing for professional, public, and academic audiences",
+    "student_friendly_summary": "refining writing for different purposes and audiences through revision-intensive workshops and peer review",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "ENL2022",
+    "course_name": "British Literature Survey",
+    "focus": "British lit from medieval period through 20th century",
+    "student_friendly_summary": "reading canonical British authors from Chaucer and Shakespeare to Woolf and Orwell with critical analysis",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "EUH2011",
+    "course_name": "History of Western Civilization I",
+    "focus": "ancient civilizations through the early modern period",
+    "student_friendly_summary": "tracing Western history from ancient Greece and Rome through the Renaissance, Reformation, and Scientific Revolution",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "EUH2012",
+    "course_name": "History of Western Civilization II",
+    "focus": "modern Europe from the Enlightenment to present",
+    "student_friendly_summary": "following Europe's transformation through revolution, industrialization, two World Wars, and the Cold War",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "EVR1001",
+    "course_name": "Introduction to Environmental Science",
+    "focus": "ecosystems, pollution, climate change, and sustainability",
+    "student_friendly_summary": "exploring how natural systems work and the environmental challenges facing the planet including climate and biodiversity loss",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "EVR3001",
+    "course_name": "Environmental Science",
+    "focus": "earth systems, resource use, and policy responses",
+    "student_friendly_summary": "investigating environmental problems from habitat loss to toxic waste and analyzing policy solutions",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "EXP3604",
+    "course_name": "Cognitive Psychology",
+    "focus": "attention, memory, perception, and decision making",
+    "student_friendly_summary": "studying how the mind processes information, stores memories, and makes judgments and decisions",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "FIN3403",
+    "course_name": "Business Finance",
+    "focus": "time value of money, capital budgeting, and valuation",
+    "student_friendly_summary": "applying financial tools to evaluate investments, understand risk and return, and help firms make capital decisions",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "FIN4303",
+    "course_name": "Financial Institutions and Markets",
+    "focus": "banking, interest rates, and capital markets",
+    "student_friendly_summary": "exploring how banks, stock markets, and financial intermediaries work and how they affect the broader economy",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "FIN4453",
+    "course_name": "Investment Analysis",
+    "focus": "portfolio theory, asset pricing, and security analysis",
+    "student_friendly_summary": "evaluating stocks and bonds using modern portfolio theory and learning how professional investors analyze investments",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "FRE1120",
+    "course_name": "Elementary French I",
+    "focus": "basic French vocabulary, grammar, and pronunciation",
+    "student_friendly_summary": "starting French from scratch with basic greetings, everyday vocabulary, and simple sentence structures",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "GEB3213",
+    "course_name": "Business Communication",
+    "focus": "professional writing, presentations, and workplace communication",
+    "student_friendly_summary": "developing communication skills for the workplace through emails, reports, presentations, and interpersonal strategies",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "GEO2200",
+    "course_name": "Physical Geography",
+    "focus": "climate, landforms, soils, and biomes",
+    "student_friendly_summary": "learning how Earth's physical systems like weather, rivers, and soil shape the landscapes we live in",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "GEO3540",
+    "course_name": "Introduction to GIS",
+    "focus": "spatial data, mapping, and geographic information systems",
+    "student_friendly_summary": "using GIS software to create maps, analyze spatial patterns, and solve real-world geographic problems",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "GLY2010",
+    "course_name": "Physical Geology",
+    "focus": "rocks, minerals, plate tectonics, and Earth's history",
+    "student_friendly_summary": "exploring how the Earth works through plate tectonics, rock formation, and the forces that shape its surface",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "HFT3240",
+    "course_name": "Hospitality Marketing",
+    "focus": "branding, customer experience, and digital marketing in hospitality",
+    "student_friendly_summary": "applying marketing strategies to hotels, restaurants, and tourism businesses with a focus on customer engagement",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "HFT3431",
+    "course_name": "Food and Beverage Management",
+    "focus": "restaurant operations, menus, and cost control",
+    "student_friendly_summary": "managing food service operations from menu planning and purchasing to controlling costs and ensuring quality",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "HIS3464",
+    "course_name": "History of Latin America",
+    "focus": "colonial legacy, independence movements, and modern politics",
+    "student_friendly_summary": "tracing Latin American history from Spanish colonization through independence to 20th-century revolutions and democracies",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "HSA3111",
+    "course_name": "Introduction to Health Services Administration",
+    "focus": "healthcare systems, policy, and organizational structure",
+    "student_friendly_summary": "getting a broad overview of how healthcare is organized, financed, and managed in the United States",
+    "default_building": "MDC"
+  },
+  {
+    "course_code": "HUM2020",
+    "course_name": "Introduction to Humanities",
+    "focus": "art, literature, philosophy, and culture across civilizations",
+    "student_friendly_summary": "surveying human creativity and expression across history through art, literature, music, and philosophical ideas",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "HUN2201",
+    "course_name": "Nutrition",
+    "focus": "macronutrients, vitamins, metabolism, and dietary health",
+    "student_friendly_summary": "understanding how the body uses food for energy and health and what science says about good nutrition",
+    "default_building": "MDC"
+  },
+  {
+    "course_code": "IDS4920",
+    "course_name": "Interdisciplinary Capstone",
+    "focus": "integration of multiple disciplines on a real-world problem",
+    "student_friendly_summary": "synthesizing knowledge from multiple fields to analyze a complex issue and present a well-reasoned solution",
+    "default_building": "CGS"
+  },
+  {
+    "course_code": "INR2002",
+    "course_name": "Introduction to International Relations",
+    "focus": "global politics, state behavior, and international organizations",
+    "student_friendly_summary": "understanding how countries interact, why conflicts and cooperation occur, and the role of institutions like the UN",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "INP4004",
+    "course_name": "Industrial/Organizational Psychology",
+    "focus": "motivation, leadership, selection, and workplace behavior",
+    "student_friendly_summary": "applying psychology to the workplace to understand how people are hired, motivated, and managed effectively",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "ISM3011",
+    "course_name": "Information Systems in Organizations",
+    "focus": "IT strategy, systems thinking, and business technology",
+    "student_friendly_summary": "exploring how businesses use technology to manage information, improve processes, and gain competitive advantage",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "ISM4210",
+    "course_name": "Systems Analysis and Design",
+    "focus": "requirements gathering, modeling, and system development",
+    "student_friendly_summary": "learning how to analyze business needs and design information systems using diagrams, prototypes, and documentation",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "JOU3101",
+    "course_name": "Principles of Journalism",
+    "focus": "news writing, ethics, and media literacy",
+    "student_friendly_summary": "learning how professional journalists report, write, and ethically cover the news across print and digital platforms",
+    "default_building": "CIS"
+  },
+  {
+    "course_code": "JPN1120",
+    "course_name": "Elementary Japanese I",
+    "focus": "hiragana, katakana, basic grammar, and everyday Japanese",
+    "student_friendly_summary": "starting Japanese from zero with phonetic scripts, greetings, and simple conversational structures",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "LIN3010",
+    "course_name": "Introduction to Linguistics",
+    "focus": "phonology, morphology, syntax, and semantics",
+    "student_friendly_summary": "discovering the science of language by analyzing how sounds, words, and sentences are structured across human languages",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "LIT2000",
+    "course_name": "Introduction to Literature",
+    "focus": "fiction, poetry, drama, and close reading techniques",
+    "student_friendly_summary": "developing skills to read, interpret, and write about literature in all its major forms",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "MAC2311",
+    "course_name": "Calculus I",
+    "focus": "limits, derivatives, and mathematical modeling",
+    "student_friendly_summary": "building a foundation in calculus through derivatives, rates of change, and applied problem solving",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "MAC2312",
+    "course_name": "Calculus II",
+    "focus": "integration, series, and applications",
+    "student_friendly_summary": "continuing calculus with integrals, areas under curves, infinite series, and techniques like integration by parts",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "MAC2313",
+    "course_name": "Calculus III",
+    "focus": "multivariable calculus, vectors, and partial derivatives",
+    "student_friendly_summary": "extending calculus to 3D space with partial derivatives, multiple integrals, and vector fields",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "MAD3107",
+    "course_name": "Discrete Mathematics",
+    "focus": "logic, sets, graph theory, and combinatorics",
+    "student_friendly_summary": "developing the mathematical thinking needed for computer science including proofs, sets, and counting techniques",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MAN3025",
+    "course_name": "Principles of Management",
+    "focus": "planning, organizing, leading, and controlling organizations",
+    "student_friendly_summary": "learning the core functions of management and how organizations are structured, led, and evaluated for performance",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "MAN4720",
+    "course_name": "Business Policy and Strategy",
+    "focus": "competitive analysis, strategic planning, and firm performance",
+    "student_friendly_summary": "analyzing real companies to understand how they compete, make decisions, and formulate long-term strategy",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "MAP2302",
+    "course_name": "Differential Equations",
+    "focus": "ODEs, modeling, and solution methods",
+    "student_friendly_summary": "solving differential equations that model real phenomena like population growth, heat transfer, and oscillations",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "MAR3023",
+    "course_name": "Basic Marketing",
+    "focus": "the 4 Ps, consumer behavior, and marketing strategy",
+    "student_friendly_summary": "understanding how businesses identify customer needs and use product, price, place, and promotion to meet them",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "MAR4503",
+    "course_name": "Consumer Behavior",
+    "focus": "psychology of buying decisions and market segmentation",
+    "student_friendly_summary": "exploring why consumers buy what they buy and how marketers use psychology to influence purchasing decisions",
+    "default_building": "BSN"
+  },
+  {
+    "course_code": "MAS3105",
+    "course_name": "Linear Algebra",
+    "focus": "vectors, matrices, eigenvalues, and linear transformations",
+    "student_friendly_summary": "learning the math behind data science and machine learning through matrices, systems of equations, and vector spaces",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MAT2930",
+    "course_name": "Mathematical Reasoning",
+    "focus": "logic, proof writing, and mathematical structures",
+    "student_friendly_summary": "transitioning from computation to rigorous proof writing and learning how mathematicians think and communicate",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MCB3020",
+    "course_name": "General Microbiology",
+    "focus": "bacteria, viruses, fungi, and host-pathogen interactions",
+    "student_friendly_summary": "studying microorganisms including how they function, reproduce, cause disease, and are used in biotechnology",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MCB4303",
+    "course_name": "Genetics",
+    "focus": "Mendelian and molecular genetics, mutations, and genomics",
+    "student_friendly_summary": "exploring how traits are inherited, how DNA mutations happen, and how the genome is studied in modern biology",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MGF1106",
+    "course_name": "Mathematics for Liberal Arts I",
+    "focus": "logic, sets, probability, and everyday math",
+    "student_friendly_summary": "exploring practical math topics like logic puzzles, probability, and statistics without heavy algebraic prerequisites",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MGF1107",
+    "course_name": "Explorations in Mathematics",
+    "focus": "patterns, geometry, and mathematical creativity",
+    "student_friendly_summary": "discovering the beauty of math through patterns, symmetry, number theory, and mathematical art",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "MMC3602",
+    "course_name": "Mass Communication Theory",
+    "focus": "media effects, agenda setting, and communication models",
+    "student_friendly_summary": "examining how mass media shapes public opinion, culture, and society through major communication theories",
+    "default_building": "CIS"
+  },
+  {
+    "course_code": "MUH2019",
+    "course_name": "History of Rock Music",
+    "focus": "origins, subgenres, and cultural impact of rock music",
+    "student_friendly_summary": "tracing rock music from the blues and early rock and roll through punk, metal, and alternative to today",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "MUL1010",
+    "course_name": "Music Literature",
+    "focus": "music listening, style analysis, and historical periods",
+    "student_friendly_summary": "developing music appreciation through guided listening to classical, jazz, and world music across historical eras",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "MUT1111",
+    "course_name": "Music Theory I",
+    "focus": "scales, intervals, chords, and basic notation",
+    "student_friendly_summary": "learning the building blocks of music theory including reading music, forming chords, and understanding rhythm",
+    "default_building": "FAH"
+  },
+  {
+    "course_code": "NSC3350",
+    "course_name": "Introduction to Neuroscience",
+    "focus": "brain structure, neurons, neurotransmitters, and behavior",
+    "student_friendly_summary": "exploring how the brain and nervous system work and how neural activity underlies perception, emotion, and behavior",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "NUR3065",
+    "course_name": "Pathophysiology",
+    "focus": "disease mechanisms, organ systems, and clinical correlations",
+    "student_friendly_summary": "understanding how diseases develop at the cellular and organ level as a foundation for clinical nursing practice",
+    "default_building": "MDN"
+  },
+  {
+    "course_code": "OCE1001",
+    "course_name": "Oceanography",
+    "focus": "ocean circulation, marine ecosystems, and the seafloor",
+    "student_friendly_summary": "discovering the physical, chemical, and biological systems of Earth's oceans and their role in climate and life",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "PAD3003",
+    "course_name": "Introduction to Public Administration",
+    "focus": "government agencies, bureaucracy, and public policy",
+    "student_friendly_summary": "learning how government organizations work, make decisions, and implement policies that affect daily life",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "PCB3023",
+    "course_name": "Cell and Molecular Biology",
+    "focus": "DNA, transcription, translation, and signal transduction",
+    "student_friendly_summary": "exploring how genetic information flows from DNA to proteins and how cells communicate and regulate gene expression",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "PCB3134",
+    "course_name": "Ecology",
+    "focus": "populations, communities, ecosystems, and biodiversity",
+    "student_friendly_summary": "studying how organisms interact with each other and their environment from individual populations to whole ecosystems",
+    "default_building": "NES"
+  },
+  {
+    "course_code": "PHI2010",
+    "course_name": "Introduction to Philosophy",
+    "focus": "metaphysics, epistemology, ethics, and logic",
+    "student_friendly_summary": "exploring the big questions in philosophy about knowledge, reality, morality, and how to reason well",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "PHI2630",
+    "course_name": "Contemporary Moral Issues",
+    "focus": "applied ethics: abortion, capital punishment, and justice",
+    "student_friendly_summary": "analyzing controversial moral questions using ethical frameworks like utilitarianism, rights theory, and virtue ethics",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "PHI3500",
+    "course_name": "Theory of Knowledge",
+    "focus": "epistemology, justification, and the nature of truth",
+    "student_friendly_summary": "investigating what knowledge is, how we can have it, and whether skepticism about the world is ever justified",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "PHY2048",
+    "course_name": "General Physics I",
+    "focus": "motion, forces, energy, and lab-style reasoning",
+    "student_friendly_summary": "understanding motion and forces while applying formulas to real physical systems",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "PHY2049",
+    "course_name": "General Physics II",
+    "focus": "electricity, magnetism, waves, and optics",
+    "student_friendly_summary": "extending physics to electric and magnetic fields, circuits, light, and the wave nature of radiation",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "PHY2053",
+    "course_name": "Physics I (Algebra-Based)",
+    "focus": "kinematics, forces, and energy without calculus",
+    "student_friendly_summary": "a calculus-free introduction to physics covering motion, Newton's laws, and energy for life sciences students",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "PHY4604",
+    "course_name": "Quantum Mechanics I",
+    "focus": "wave functions, Schrödinger equation, and quantum states",
+    "student_friendly_summary": "entering the quantum world where particles behave as waves and probability replaces certainty",
+    "default_building": "CHE"
+  },
+  {
+    "course_code": "POS2041",
+    "course_name": "American National Government",
+    "focus": "Constitution, Congress, the President, and the judiciary",
+    "student_friendly_summary": "understanding the structure and function of the U.S. government including checks and balances and civil liberties",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "POS3273",
+    "course_name": "Florida Politics and Government",
+    "focus": "Florida's constitution, legislature, and political culture",
+    "student_friendly_summary": "examining how Florida's state government works and the unique political dynamics of one of the nation's largest states",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "PSY2012",
+    "course_name": "Introduction to Psychological Science",
+    "focus": "behavior, cognition, and research basics",
+    "student_friendly_summary": "surveying the basics of psychology including behavior, memory, development, and research methods",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "PSY3213",
+    "course_name": "Research Methods in Psychology",
+    "focus": "experimental design, data collection, and statistical analysis",
+    "student_friendly_summary": "learning how psychologists design experiments, collect data, run statistical tests, and write up research findings",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "PSY3931",
+    "course_name": "Social Psychology",
+    "focus": "attitudes, persuasion, group dynamics, and social influence",
+    "student_friendly_summary": "exploring how other people shape our thoughts, feelings, and behavior through social influence, conformity, and prejudice",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "PSY4930",
+    "course_name": "Biopsychology",
+    "focus": "brain-behavior relationships, hormones, and perception",
+    "student_friendly_summary": "connecting brain biology to behavior by studying how neural systems underlie sensation, motivation, and emotion",
+    "default_building": "BEH"
+  },
+  {
+    "course_code": "PUP3002",
+    "course_name": "Introduction to Public Policy",
+    "focus": "policy cycle, agenda setting, and implementation",
+    "student_friendly_summary": "understanding how public problems get on the government agenda, become laws, and are put into practice",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "SLS1501",
+    "course_name": "Strategies for University Success",
+    "focus": "study skills, time management, and college navigation",
+    "student_friendly_summary": "building the academic habits and campus awareness needed to thrive in college from day one",
+    "default_building": "SVC"
+  },
+  {
+    "course_code": "SOC1000",
+    "course_name": "Introduction to Sociology",
+    "focus": "social structure, institutions, and inequality",
+    "student_friendly_summary": "developing a sociological imagination to see how society's structures shape individual lives and social outcomes",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "SOC3410",
+    "course_name": "Race and Ethnicity",
+    "focus": "racial identity, systemic racism, and diversity in the U.S.",
+    "student_friendly_summary": "examining the social construction of race and how racial inequality is produced and challenged in American society",
+    "default_building": "SOC"
+  },
+  {
+    "course_code": "SPN1120",
+    "course_name": "Elementary Spanish I",
+    "focus": "basic Spanish grammar, vocabulary, and pronunciation",
+    "student_friendly_summary": "beginning Spanish with greetings, everyday vocabulary, verb conjugation, and simple conversations",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "SPN2220",
+    "course_name": "Intermediate Spanish I",
+    "focus": "expanding grammar, reading, and conversational Spanish",
+    "student_friendly_summary": "building on elementary Spanish to handle more complex conversations, texts, and written tasks",
+    "default_building": "CPR"
+  },
+  {
+    "course_code": "STA2023",
+    "course_name": "Elementary Statistics",
+    "focus": "data analysis, probability, and hypothesis testing",
+    "student_friendly_summary": "learning to describe data, calculate probabilities, and test hypotheses without advanced math prerequisites",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "STA3032",
+    "course_name": "Engineering Statistics",
+    "focus": "probability, distributions, regression, and quality control",
+    "student_friendly_summary": "applying statistical methods to engineering problems including reliability analysis and process improvement",
+    "default_building": "ENG"
+  },
+  {
+    "course_code": "STA4321",
+    "course_name": "Introduction to Probability",
+    "focus": "probability theory, random variables, and distributions",
+    "student_friendly_summary": "building a rigorous understanding of probability including discrete and continuous random variables and their distributions",
+    "default_building": "ISA"
+  },
+  {
+    "course_code": "THE2000",
+    "course_name": "Introduction to Theatre",
+    "focus": "theatrical history, performance, and design elements",
+    "student_friendly_summary": "exploring theatre as an art form through its history, dramatic structure, and the elements of production and performance",
+    "default_building": "TAT"
+  },
+  {
+    "course_code": "WST3015",
+    "course_name": "Introduction to Women's and Gender Studies",
+    "focus": "feminism, gender theory, and intersectionality",
+    "student_friendly_summary": "examining how gender shapes social life and exploring feminist theories including intersectionality and gender identity",
+    "default_building": "SOC"
+  }
+]

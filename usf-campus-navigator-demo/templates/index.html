@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="{{ url_for('static', filename='Photos/usf_primarylogo.png') }}?v=1" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USF Campus Navigator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ededed;
+      --surface: #0b5a3f;
+      --surface2: #0f6b4a;
+      --input-bg: #084430;
+      --input-focus: #0a5338;
+      --border: rgba(207, 196, 147, 0.35);
+      --accent: #cfc493;
+      --accent2: #ffffff;
+      --accent3: #ffffff;
+      --gold: #cfc493;
+      --text: #ffffff;
+      --muted: #e7dfc0;
+      --danger: #ffe8b3;
+      --glow: 0 0 20px rgba(207,196,147,0.35);
+      --glow2: 0 0 40px rgba(207,196,147,0.2);
+    }
+
+    html { font-size: 16px; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Syne', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(207,196,147,0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(207,196,147,0.12) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(207,196,147,0.2) 0%, transparent 70%);
+      top: -200px; left: -200px;
+      pointer-events: none;
+      z-index: 0;
+      animation: orbDrift 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes orbDrift {
+      from { transform: translate(0, 0); }
+      to { transform: translate(100px, 80px); }
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      margin: 12px 24px 0;
+      padding: 24px 40px;
+      background: linear-gradient(135deg, rgba(13, 87, 61, 0.95), rgba(11, 90, 63, 0.92));
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.28);
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .header-badge {
+      flex-shrink: 0;
+      width: 56px; height: 56px;
+      background: #ffffff;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: var(--glow), 0 8px 24px rgba(0,0,0,0.35);
+      animation: badgePulse 3s ease-in-out infinite;
+      border: 1px solid var(--gold);
+      overflow: hidden;
+      padding: 8px;
+    }
+
+
+    .header-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    @keyframes badgePulse {
+      0%, 100% { box-shadow: var(--glow), 0 8px 24px rgba(0,0,0,0.4); }
+      50% { box-shadow: 0 0 40px rgba(207,196,147,0.55), 0 8px 24px rgba(0,0,0,0.4); }
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transform: translateY(-2px);
+    }
+
+    .header-text h1 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      letter-spacing: -0.02em;
+      line-height: 1;
+      background: linear-gradient(135deg, #ffffff 0%, var(--gold) 55%, #ffffff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-text p {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-family: 'Space Mono', monospace;
+      letter-spacing: 0.02em;
+    }
+
+    .status-bar {
+      margin-left: auto;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--accent3);
+    }
+
+    .status-dot {
+      width: 8px; height: 8px;
+      background: var(--accent3);
+      border-radius: 50%;
+      animation: blink 2s step-end infinite;
+    }
+
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+
+    .layout {
+      position: relative;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 28px 48px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+
+    .panel::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0.6;
+    }
+
+    .panel:hover { border-color: rgba(207,196,147,0.35); }
+
+    .panel.wide {
+      grid-column: 1 / -1;
+      margin: 0 48px 48px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: '';
+      display: inline-block;
+      width: 14px; height: 2px;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+
+    h3 {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 24px 0 12px;
+    }
+
+    .hint {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    #schedule-form {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 8px;
+    }
+
+    .header-row {
+      padding: 0 4px;
+    }
+
+    .header-row span {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    input {
+      background: var(--input-bg);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 10px;
+      color: var(--text);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.82rem;
+      padding: 10px 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+      width: 100%;
+    }
+
+    input::placeholder { color: var(--muted); opacity: 0.6; }
+
+    input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(207,196,147,0.18);
+      background: var(--input-focus);
+    }
+
+    input:not(:placeholder-shown) {
+      border-color: rgba(207,196,147,0.35);
+      color: #ffffff;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: nowrap;
+    }
+
+    button {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: clamp(0.64rem, 1.5vw, 0.82rem);
+      letter-spacing: 0.06em;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      padding: 10px 10px;
+      height: clamp(38px, 5vw, 44px);
+      transition: all 0.2s;
+      white-space: nowrap;
+      min-width: 0;
+      flex: 1 1 0;
+    }
+
+    #run-demo {
+      flex: 1;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+      color: #006747;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #run-demo:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(207,196,147,0.45);
+    }
+
+    button.secondary {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+      color: #006747;
+      border: none;
+    }
+
+    button.secondary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(207,196,147,0.45);
+    }
+
+    .upload-wrap {
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      background: var(--input-bg);
+    }
+
+    .upload-wrap label {
+      display: block;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .upload-wrap input[type="file"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid rgba(207,196,147,0.3);
+      border-radius: 10px;
+      color: var(--muted);
+      background: var(--surface);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+
+    .upload-wrap input[type="file"]::file-selector-button {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-right: 12px;
+      background: linear-gradient(135deg, var(--accent) 0%, #fff7d8 100%);
+      color: #006747;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .upload-wrap input[type="file"]::file-selector-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(207,196,147,0.4);
+    }
+
+    .upload-wrap input[type="file"]:hover,
+    .upload-wrap input[type="file"]:focus {
+      border-color: rgba(207,196,147,0.5);
+      box-shadow: 0 0 0 3px rgba(207,196,147,0.14);
+    }
+
+    .day-slider {
+      margin-top: 12px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      border: 1px solid rgba(207,196,147,0.3);
+      border-radius: 12px;
+      background: var(--input-bg);
+    }
+
+    .day-slider.visible {
+      display: flex;
+    }
+
+    .day-arrow {
+      flex: 0 0 40px;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid rgba(207,196,147,0.35);
+      background: linear-gradient(135deg, var(--accent) 0%, #fff7d8 100%);
+      color: #006747;
+      font-size: 1rem;
+      font-weight: 800;
+      font-family: 'Syne', sans-serif;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+    }
+
+    .day-arrow:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(207,196,147,0.35);
+    }
+
+    .day-arrow:disabled {
+      opacity: 0.45;
+      cursor: default;
+    }
+
+    .day-label-wrap {
+      flex: 1;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .day-label-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .day-label-value {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.04em;
+    }
+
+    .status {
+      margin-top: 14px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--accent3);
+      min-height: 18px;
+      opacity: 0;
+      transform: translateY(4px);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    .status.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .summary-box {
+      background: var(--surface2);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      padding: 20px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      line-height: 1.8;
+      color: var(--muted);
+      min-height: 120px;
+      transition: all 0.3s;
+    }
+
+    .summary-box.loaded {
+      color: var(--text);
+      border-color: rgba(207,196,147,0.28);
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .card {
+      background: var(--surface2);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: opacity 0.4s, transform 0.4s, border-color 0.2s;
+    }
+
+    .card.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .card:hover { border-color: rgba(207,196,147,0.32); }
+
+    .card-icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .card-info { flex: 1; }
+
+    .card-name {
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: #ffffff;
+    }
+
+    .card-sub {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .card-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 700;
+    }
+
+    #map {
+      width: 100%;
+      height: 420px;
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      position: relative;
+    }
+
+    #map:empty::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 39px,
+          rgba(207,196,147,0.12) 39px,
+          rgba(207,196,147,0.12) 40px
+        ),
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 39px,
+          rgba(207,196,147,0.12) 39px,
+          rgba(207,196,147,0.12) 40px
+        );
+    }
+
+    #map:empty::after {
+      content: 'MAP LOADS AFTER BUILD';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+    }
+
+    .route-fallback {
+      margin-top: 16px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    #route-results {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .route-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+
+    .route-step:last-child { border-bottom: none; }
+
+    .step-arrow {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(207,196,147,0.18);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent);
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel { animation: fadeUp 0.5s ease both; }
+    .layout .panel:nth-child(1) { animation-delay: 0.1s; }
+    .layout .panel:nth-child(2) { animation-delay: 0.2s; }
+    .panel.wide { animation-delay: 0.3s; }
+    header { animation: fadeUp 0.4s ease both; }
+
+    @media (max-width: 800px) {
+      header { margin: 10px 16px 0; padding: 18px 18px; flex-wrap: wrap; }
+      .layout { grid-template-columns: 1fr; padding: 16px 20px; }
+      .panel.wide { margin: 0 20px 32px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-badge"><img src="{{ url_for('static', filename='Photos/usf_primarylogo.png') }}" alt="USF logo"></div>
+    <div class="header-text">
+      <h1>USF Campus Navigator</h1>
+    </div>
+    <div class="status-bar">
+      <div class="status-dot"></div>
+      <span>SYSTEM ONLINE</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <h2>Daily Schedule</h2>
+      <p class="hint">Enter up to 8 classes. Or load an example to see how it works!</p>
+
+      <div id="schedule-form">
+        <div class="row header-row">
+          <span>Course code</span>
+          <span>Building</span>
+          <span>Start time</span>
+        </div>
+        <div class="row">
+          <input class="course" placeholder="COP3514" />
+          <input class="building" placeholder="ISA" />
+          <input class="time" placeholder="09:30 AM" />
+        </div>
+        <div class="row">
+          <input class="course" placeholder="MAC2311" />
+          <input class="building" placeholder="ENG" />
+          <input class="time" placeholder="11:00 AM" />
+        </div>
+        <div class="row">
+          <input class="course" placeholder="PHY2048" />
+          <input class="building" placeholder="CHE" />
+          <input class="time" placeholder="12:30 PM" />
+        </div>
+        <div class="row">
+          <input class="course" placeholder="ENC1101" />
+          <input class="building" placeholder="CPR" />
+          <input class="time" placeholder="02:00 PM" />
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="run-demo">⚡ Build My Day</button>
+        <button id="add-course" class="secondary">Add Course</button>
+        <button id="load-example" class="secondary">Load Example</button>
+      </div>
+
+      <div class="upload-wrap">
+        <label for="schedule-upload">Or upload a schedule image</label>
+        <input id="schedule-upload" type="file" accept="image/*" />
+      </div>
+      <div id="day-slider" class="day-slider" aria-live="polite">
+        <button id="day-prev" class="day-arrow" type="button" aria-label="Previous day">←</button>
+        <div class="day-label-wrap">
+          <span class="day-label-title">Viewing day</span>
+          <span id="day-slider-label" class="day-label-value">Day</span>
+        </div>
+        <button id="day-next" class="day-arrow" type="button" aria-label="Next day">→</button>
+      </div>
+
+      <div class="status" id="status"></div>
+    </section>
+
+    <section class="panel">
+      <h2>AI Course Summary</h2>
+      <div id="summary" class="summary-box">Your summary will appear here.</div>
+
+      <h3>Matched Buildings</h3>
+      <div id="building-results" class="cards"></div>
+    </section>
+  </main>
+
+  <section class="panel wide">
+    <h2>Map + Route</h2>
+    <p class="hint">Live map and walking routes powered by Google Maps.</p>
+    <div id="map"></div>
+    <div id="route-fallback" class="route-fallback"></div>
+    <div id="route-results"></div>
+  </section>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&callback=initMap&libraries=places&loading=async"
+    defer
+  ></script>
+</body>
+</html>

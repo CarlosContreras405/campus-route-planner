@@ -1,0 +1,7 @@
+Flask>=3.0.0
+dotenv
+google-genai
+google
+base64
+openai
+requests

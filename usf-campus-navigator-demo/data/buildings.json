@@ -1,0 +1,681 @@
+[
+  {
+    "code": "ISA",
+    "name": "Interdisciplinary Sciences Building",
+    "lat": 28.0612531,
+    "lng": -82.4141556,
+    "address": "12030 USF Cherry Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "OFFT",
+    "name": "Off-Campus",
+    "lat": null,
+    "lng": null,
+    "address": null
+  },
+  {
+    "code": "ENG",
+    "name": "Kopp Engineering Building (Engineering Building I)",
+    "lat": 28.0593904,
+    "lng": -82.4161687,
+    "address": "3820 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BSN",
+    "name": "C. H. Ferguson Hall (Muma College of Business)",
+    "lat": 28.0584584,
+    "lng": -82.4091094,
+    "address": "4202 E Fowler Ave, Tampa, FL 33620"
+  },
+  {
+    "code": "CHE",
+    "name": "Chemistry Building",
+    "lat": 28.0611955,
+    "lng": -82.4154711,
+    "address": "12111 USF Sweetgum Ln, Tampa, FL 33620"
+  },
+  {
+    "code": "CPR",
+    "name": "Cooper Hall",
+    "lat": 28.0596433,
+    "lng": -82.4107975,
+    "address": "12021 USF Sago Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "SOC",
+    "name": "Social Sciences Building",
+    "lat": 28.0614706,
+    "lng": -82.4090179,
+    "address": "12320 USF Genshaft Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "MSC",
+    "name": "Marshall Student Center",
+    "lat": 28.0617,
+    "lng": -82.4133,
+    "address": "4103 USF Cedar Cir, Tampa, FL 33620"
+  },
+  {
+    "code": "LIB",
+    "name": "USF Tampa Library",
+    "lat": 28.062,
+    "lng": -82.4118,
+    "address": "4101 USF Apple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "EDU",
+    "name": "Education Building",
+    "lat": 28.0607,
+    "lng": -82.4079,
+    "address": "12906 USF Beard Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ENB",
+    "name": "Engineering Building II",
+    "lat": 28.0588,
+    "lng": -82.4168,
+    "address": "3820 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ENC",
+    "name": "Engineering Building III",
+    "lat": 28.0583,
+    "lng": -82.4165,
+    "address": "3824 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ENA",
+    "name": "Engineering Teaching Auditorium",
+    "lat": 28.0591,
+    "lng": -82.4157,
+    "address": "3900 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CIS",
+    "name": "Communication and Information Sciences Building",
+    "lat": 28.0602,
+    "lng": -82.4148,
+    "address": "4202 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BEH",
+    "name": "Behavioral Sciences Building",
+    "lat": 28.0597,
+    "lng": -82.4086,
+    "address": "12906 USF Magnolia Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "SCA",
+    "name": "Science Center Building",
+    "lat": 28.0618,
+    "lng": -82.416,
+    "address": "12091 USF Sweetgum Ln, Tampa, FL 33620"
+  },
+  {
+    "code": "NTA",
+    "name": "Nanotechnology Research and Education Center",
+    "lat": 28.0595,
+    "lng": -82.4174,
+    "address": "3702 Spectrum Blvd, Tampa, FL 33620"
+  },
+  {
+    "code": "SVC",
+    "name": "Student Services Building",
+    "lat": 28.0637,
+    "lng": -82.4124,
+    "address": "12220 USF Mango Ln, Tampa, FL 33620"
+  },
+  {
+    "code": "REC",
+    "name": "Campus Recreation Center",
+    "lat": 28.0627,
+    "lng": -82.4103,
+    "address": "12301 USF Genshaft Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ATH",
+    "name": "Lee Roy Selmon Athletics Center",
+    "lat": 28.0577,
+    "lng": -82.4097,
+    "address": "12503 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "SUN",
+    "name": "Yuengling Center (formerly Sun Dome)",
+    "lat": 28.0569,
+    "lng": -82.4142,
+    "address": "12500 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CAM",
+    "name": "Contemporary Art Museum",
+    "lat": 28.0605,
+    "lng": -82.4122,
+    "address": "3821 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FAH",
+    "name": "Fine Arts Building",
+    "lat": 28.061,
+    "lng": -82.4112,
+    "address": "13001 USF Laurel Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FAD",
+    "name": "Dance Studio",
+    "lat": 28.0613,
+    "lng": -82.4126,
+    "address": "3831 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FAS",
+    "name": "Fine Arts Studio",
+    "lat": 28.0616,
+    "lng": -82.4117,
+    "address": "13003 USF Laurel Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "TAT",
+    "name": "Theatre I",
+    "lat": 28.0614,
+    "lng": -82.413,
+    "address": "3839 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "THR",
+    "name": "Theatre II",
+    "lat": 28.0612,
+    "lng": -82.4128,
+    "address": "3829 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "TAR",
+    "name": "Theatre Arts Rehearsal Building",
+    "lat": 28.0608,
+    "lng": -82.4132,
+    "address": "3837 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BKS",
+    "name": "USF Tampa Bookstore",
+    "lat": 28.0619,
+    "lng": -82.4128,
+    "address": "4105 USF Cedar Circle, Tampa, FL 33620"
+  },
+  {
+    "code": "DAC",
+    "name": "David C. Anchin Center",
+    "lat": 28.06,
+    "lng": -82.4076,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "HMS",
+    "name": "Human Services Building",
+    "lat": 28.0599,
+    "lng": -82.4083,
+    "address": "12901 USF Beard Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ULH",
+    "name": "University Lecture Hall",
+    "lat": 28.0604,
+    "lng": -82.4089,
+    "address": "12901 USF Beard Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CEE",
+    "name": "Stavros Center for Economic Education",
+    "lat": 28.0602,
+    "lng": -82.4092,
+    "address": "4111 USF Willow Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ALN",
+    "name": "John & Grace Allen Building (Welcome Center)",
+    "lat": 28.0626,
+    "lng": -82.414,
+    "address": "12100 Leroy Collins Blvd, Tampa, FL 33620"
+  },
+  {
+    "code": "ALC",
+    "name": "Sam & Martha Gibbons Alumni Center",
+    "lat": 28.0572,
+    "lng": -82.4072,
+    "address": "4204 E Fowler Ave, Tampa, FL 33620"
+  },
+  {
+    "code": "SHS",
+    "name": "Student Health Services",
+    "lat": 28.0634,
+    "lng": -82.4133,
+    "address": "12530 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "MDC",
+    "name": "USF Health - Morsani College of Medicine Building",
+    "lat": 28.0665,
+    "lng": -82.427,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MDA",
+    "name": "USF Health - Shared Student Administration Building",
+    "lat": 28.0668,
+    "lng": -82.4267,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MDF",
+    "name": "USF Health - Faculty Office Building",
+    "lat": 28.0671,
+    "lng": -82.4264,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MDH",
+    "name": "Morsani Center for Advanced Health Care",
+    "lat": 28.0673,
+    "lng": -82.4261,
+    "address": "13330 USF Laurel Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "MDL",
+    "name": "USF Health - Student Group Learning Building",
+    "lat": 28.0663,
+    "lng": -82.426,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MDN",
+    "name": "USF Health - Nursing Building",
+    "lat": 28.0667,
+    "lng": -82.4272,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MDT",
+    "name": "USF Health - Psychiatry & Physical Therapy Building",
+    "lat": 28.067,
+    "lng": -82.428,
+    "address": "12901 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "MCC",
+    "name": "H. Lee Moffitt Cancer Center and Research Institute",
+    "lat": 28.064,
+    "lng": -82.4283,
+    "address": "12902 USF Magnolia Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "MCS",
+    "name": "Moffitt Clinical Support Building",
+    "lat": 28.0642,
+    "lng": -82.4279,
+    "address": "12902 USF Magnolia Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "PCD",
+    "name": "Psychology / Communication Sciences & Disorders Building",
+    "lat": 28.063859,
+    "lng": -82.418947,
+    "address": "3711 USF Citrus Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "CWY",
+    "name": "C.W. Bill Young Hall",
+    "lat": 28.0603,
+    "lng": -82.4099,
+    "address": "12401 USF Genshaft Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FAO",
+    "name": "Faculty Office Building",
+    "lat": 28.0601,
+    "lng": -82.4095,
+    "address": "11710 USF Genshaft Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "NES",
+    "name": "Natural & Environmental Sciences Building",
+    "lat": 28.0624,
+    "lng": -82.4148,
+    "address": "12121 USF Sweetgum Ln, Tampa, FL 33620"
+  },
+  {
+    "code": "BSF",
+    "name": "Bioscience Facility",
+    "lat": 28.0622,
+    "lng": -82.4153,
+    "address": "12204 USF Cherry Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CGS",
+    "name": "Kiran C. Patel Center for Global Solutions",
+    "lat": 28.0609,
+    "lng": -82.4138,
+    "address": "11710 USF Genshaft Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "AUX",
+    "name": "Auxiliary Services Building",
+    "lat": 28.0555,
+    "lng": -82.41,
+    "address": "3802 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "OPM",
+    "name": "Physical Plant Operations",
+    "lat": 28.0558,
+    "lng": -82.4157,
+    "address": "4010 USF Magnolia Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BDG",
+    "name": "Beard Drive Parking Garage",
+    "lat": 28.0588,
+    "lng": -82.4094,
+    "address": "4103 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CHG",
+    "name": "Crescent Hill Parking Garage",
+    "lat": 28.0623,
+    "lng": -82.4109,
+    "address": "4007 USF Cherry Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CBG",
+    "name": "Collins Boulevard Parking Garage",
+    "lat": 28.0571,
+    "lng": -82.4147,
+    "address": "4010 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CUT",
+    "name": "Center for Urban Transportation Research",
+    "lat": 28.0582,
+    "lng": -82.417,
+    "address": "4202 E Fowler Ave, Tampa, FL 33620"
+  },
+  {
+    "code": "UTA",
+    "name": "University Technology Center A",
+    "lat": 28.059,
+    "lng": -82.4172,
+    "address": "3650 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "HIL",
+    "name": "Hillel Jewish Student Center",
+    "lat": 28.0633,
+    "lng": -82.4149,
+    "address": "3810 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CHA",
+    "name": "Chapel Center",
+    "lat": 28.0631,
+    "lng": -82.4103,
+    "address": "3820 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BPT",
+    "name": "Baptist Student Center",
+    "lat": 28.0629,
+    "lng": -82.4107,
+    "address": "3700 USF Palm Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CTH",
+    "name": "Catholic Student Center",
+    "lat": 28.063,
+    "lng": -82.4112,
+    "address": "3802 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "WFC",
+    "name": "Crosswinds Wesley Foundation",
+    "lat": 28.0628,
+    "lng": -82.4116,
+    "address": "3808 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "ACS",
+    "name": "Hope Lodge - American Cancer Society",
+    "lat": 28.0645,
+    "lng": -82.4098,
+    "address": "12902 USF Magnolia Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "SHR",
+    "name": "Shriners Hospital for Children",
+    "lat": 28.0634,
+    "lng": -82.4161,
+    "address": "12502 USF Pine Dr, Tampa, FL 33612"
+  },
+  {
+    "code": "ERC",
+    "name": "USF PreSchool for Creative Learning",
+    "lat": 28.0567,
+    "lng": -82.4088,
+    "address": "4202 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "GAR",
+    "name": "USF Botanical Gardens",
+    "lat": 28.0557,
+    "lng": -82.4082,
+    "address": "12210 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "SPS",
+    "name": "Corbett Stadium (Track & Field Complex)",
+    "lat": 28.058,
+    "lng": -82.4112,
+    "address": "4601 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "STA",
+    "name": "Soccer and Track Stadium",
+    "lat": 28.0641,
+    "lng": -82.409,
+    "address": "4605 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BBP",
+    "name": "Pam & Les Muma Basketball Center",
+    "lat": 28.0573,
+    "lng": -82.4135,
+    "address": "4004 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "BCD",
+    "name": "Baseball Complex & Dugouts",
+    "lat": 28.0563,
+    "lng": -82.4089,
+    "address": "4600 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "PED",
+    "name": "Physical Education Building",
+    "lat": 28.0635,
+    "lng": -82.4097,
+    "address": "3910 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "TVB",
+    "name": "Television Building (WUSF)",
+    "lat": 28.0642,
+    "lng": -82.4117,
+    "address": "4202 E Fowler Ave, Tampa, FL 33620"
+  },
+  {
+    "code": "ALZ",
+    "name": "Johnnie B. Alzheimer's Center",
+    "lat": 28.0675,
+    "lng": -82.4258,
+    "address": "4001 E Fletcher Ave, Tampa, FL 33613"
+  },
+  {
+    "code": "IDR",
+    "name": "Interdisciplinary Research Building",
+    "lat": 28.0614,
+    "lng": -82.4135,
+    "address": "3720 Spectrum Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "ESH",
+    "name": "Embassy Suites Hotel at USF",
+    "lat": 28.058,
+    "lng": -82.4079,
+    "address": "3705 Spectrum Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "PRS",
+    "name": "Julian Hawthorn Lifsey House",
+    "lat": 28.0595,
+    "lng": -82.4178,
+    "address": "4202 USF Alumni Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FIT",
+    "name": "The Fit Health & Wellness Center",
+    "lat": 28.0552,
+    "lng": -82.4113,
+    "address": "4605 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "FPC",
+    "name": "Facilities Planning & Construction Building",
+    "lat": 28.056,
+    "lng": -82.4163,
+    "address": "4202 USF Magnolia Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RAR",
+    "name": "Argos Center",
+    "lat": 28.0655,
+    "lng": -82.4072,
+    "address": "4118 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "DHB",
+    "name": "William G. Doc Myers Building (Florida Dept of Health)",
+    "lat": 28.066,
+    "lng": -82.4245,
+    "address": "13201 Bruce B Downs Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "RBC",
+    "name": "Betty Castor Hall",
+    "lat": 28.0648,
+    "lng": -82.4078,
+    "address": "4115 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RBN",
+    "name": "Beacon Hall (The Village)",
+    "lat": 28.0652,
+    "lng": -82.4066,
+    "address": "4113 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RBE",
+    "name": "Beta Hall",
+    "lat": 28.065,
+    "lng": -82.4061,
+    "address": "4111 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "REN",
+    "name": "Endeavor Hall (The Village)",
+    "lat": 28.0656,
+    "lng": -82.4062,
+    "address": "4212 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RHN",
+    "name": "Horizon Hall (The Village)",
+    "lat": 28.0653,
+    "lng": -82.4056,
+    "address": "4208 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RKO",
+    "name": "Kosove Hall",
+    "lat": 28.0659,
+    "lng": -82.4068,
+    "address": "4200 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RPN",
+    "name": "Pinnacle Hall (The Village)",
+    "lat": 28.0654,
+    "lng": -82.406,
+    "address": "4216 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RSU",
+    "name": "Summit Hall (The Village)",
+    "lat": 28.0657,
+    "lng": -82.4065,
+    "address": "4204 USF Pine Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RCA",
+    "name": "Cypress Hall",
+    "lat": 28.0644,
+    "lng": -82.4055,
+    "address": "3900 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RCC",
+    "name": "Cypress Apartments",
+    "lat": 28.0641,
+    "lng": -82.4052,
+    "address": "3902 USF Maple Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "JPH",
+    "name": "Juniper-Poplar Hall",
+    "lat": 28.0548,
+    "lng": -82.4145,
+    "address": "3901 USF Elm Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "MAA",
+    "name": "Magnolia Housing - Building A",
+    "lat": 28.0582,
+    "lng": -82.4093,
+    "address": "4202 USF Magnolia Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RPH",
+    "name": "Health Informatics Institute",
+    "lat": 28.0548,
+    "lng": -82.4172,
+    "address": "3650 Spectrum Blvd, Tampa, FL 33612"
+  },
+  {
+    "code": "DIN",
+    "name": "Champions Choice Dining",
+    "lat": 28.0575,
+    "lng": -82.4102,
+    "address": "12530 USF Bull Run Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "CSC",
+    "name": "USF Patel Partnership School",
+    "lat": 28.0543,
+    "lng": -82.4152,
+    "address": "4201 USF Holly Dr, Tampa, FL 33620"
+  },
+  {
+    "code": "RRT",
+    "name": "Testbed for Assistive & Rehabilitative Robotics Building",
+    "lat": 28.0662,
+    "lng": -82.4053,
+    "address": "4300 USF Maple Dr, Tampa, FL 33620"
+  }
+]
