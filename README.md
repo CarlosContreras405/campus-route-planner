@@ -1,5 +1,12 @@
 # USF Campus Navigator Demo
 
+A web app that takes a student's class schedule and generates 
+optimized walking routes between USF buildings using the 
+Google Maps Directions API. Built at a GDSC Hackathon.
+
+## Demo
+[Add screenshot here]
+
 A hackathon-friendly demo app that:
 - accepts a student's schedule input
 - looks up USF-style building codes from a local JSON dataset
