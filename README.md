@@ -5,7 +5,7 @@ optimized walking routes between USF buildings using the
 Google Maps Directions API. Built at a GDSC Hackathon.
 
 ## Demo
-![App Screenshot](USFCampusNavigator.png)
+![App Screenshot](usf-campus-navigator-demo/USFCampusNavigator.png)
 
 A hackathon-friendly demo app that:
 - accepts a student's schedule input
