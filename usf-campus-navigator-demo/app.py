@@ -25,7 +25,7 @@ with open(DATA_DIR / "buildings.json", "r", encoding="utf-8") as f:
 with open(DATA_DIR / "courses.json", "r", encoding="utf-8") as f:
     COURSES = {item["course_code"].upper(): item for item in json.load(f)}
 
-client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", ""))
+client_openai = None
 
 
 @app.route("/")
